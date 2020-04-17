@@ -1,0 +1,46 @@
+.Todo {
+     background-color:white;
+     border: 1px solid white;
+     margin: 2px;
+     color: purple;
+     display: flex;
+     justify-content: space-between;
+}
+
+form {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+}
+
+input {
+     color: lightsalmon;
+     border: none;
+     padding: 2px;
+}
+
+input:focus {
+     outline: 0;
+}
+
+button {
+     border: none;
+     /* padding: 2px; */
+     background: lightsalmon;
+     color: purple;
+     /* max-height: 100%; */
+}
+
+.Buttons {
+     flex-shrink: 0;
+     box-sizing: border-box;
+     height: 100%;
+
+}
+
+.Buttons button{
+     /* height: 100%; */
+     width: 50px;
+     border: 1px solid white;
+}
+

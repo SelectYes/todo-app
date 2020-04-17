@@ -1,0 +1,19 @@
+.TodoForm {
+     margin: 20px auto;
+     display: flex;
+     /* justify-content: stretch; */
+}
+
+.TodoForm input {
+     color: lightsalmon;
+     border: none;
+     padding: 2px;
+     width: 300px;
+}
+
+.TodoForm button {
+     border: none;
+     padding: 2px;
+     background: lightsalmon;
+     color: purple;
+}
